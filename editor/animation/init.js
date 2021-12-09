@@ -8,8 +8,8 @@ requirejs(['ext_editor_io', 'jquery_190'],
         var io = new extIO({
             multipleArguments: true,
             functions: {
-                python: 'ugly_number',
-                js: 'ugly_number'
+                python: 'extremely_ugly',
+                js: 'extremely_ugly'
             }
         });
         io.start();
