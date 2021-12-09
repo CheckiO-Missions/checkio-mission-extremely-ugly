@@ -1,6 +1,6 @@
 import assert from "assert";
 
-function extremely_ugly(n: number): number {
+function extremely_ugly(n: number): string {
     // your code here
     return n;
 }
@@ -9,9 +9,9 @@ console.log('Example:');
 console.log(extremely_ugly(4));
 
 // These "asserts" are used for self-checking
-assert.equal(extremely_ugly(4), 4);
-assert.equal(extremely_ugly(6), 6);
-assert.equal(extremely_ugly(11), 15);
-assert.equal(extremely_ugly(999), 51018336);
+assert.equal(extremely_ugly(4), '4');
+assert.equal(extremely_ugly(6), '6');
+assert.equal(extremely_ugly(11), '15');
+assert.equal(extremely_ugly(999), '51018336');
 
 console.log("Extremely Ugly Numbers coding complete? Click 'Check' to earn cool rewards!");
