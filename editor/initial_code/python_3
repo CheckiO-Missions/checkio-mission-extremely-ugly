@@ -1,15 +1,15 @@
-def ugly_number(n: int) -> int:
+def extremely_ugly(n: int) -> int:
     # your code here
     return n
 
 
 if __name__ == '__main__':
     print("Example:")
-    print(ugly_number(4))
+    print(extremely_ugly(4))
 
     # These "asserts" are used for self-checking and not for an auto-testing
-    assert ugly_number(4) == 4
-    assert ugly_number(6) == 6
-    assert ugly_number(11) == 15
-    assert ugly_number(999) == 51018336
-    print("Ugly Numbers coding complete? Click 'Check' to earn cool rewards!")
+    assert extremely_ugly(4) == 4
+    assert extremely_ugly(6) == 6
+    assert extremely_ugly(11) == 15
+    assert extremely_ugly(999) == 51018336
+    print("Extremely Ugly Numbers coding complete? Click 'Check' to earn cool rewards!")
