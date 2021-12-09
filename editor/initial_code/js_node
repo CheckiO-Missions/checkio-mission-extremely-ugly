@@ -1,6 +1,6 @@
 import assert from "assert";
 
-function ugly_number(n: number): number {
+function extremely_ugly(n: number): number {
     // your code here
     return n;
 }
