@@ -12,5 +12,6 @@ console.log(ugly_number(4));
 assert.equal(ugly_number(4), 4);
 assert.equal(ugly_number(6), 6);
 assert.equal(ugly_number(11), 15);
+assert.equal(ugly_number(999), 51018336);
 
 console.log("Ugly Numbers coding complete? Click 'Check' to earn cool rewards!");
