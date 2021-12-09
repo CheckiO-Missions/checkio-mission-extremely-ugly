@@ -6,12 +6,12 @@ function ugly_number(n: number): number {
 }
 
 console.log('Example:');
-console.log(ugly_number(4));
+console.log(extremely_ugly(4));
 
 // These "asserts" are used for self-checking
-assert.equal(ugly_number(4), 4);
-assert.equal(ugly_number(6), 6);
-assert.equal(ugly_number(11), 15);
-assert.equal(ugly_number(999), 51018336);
+assert.equal(extremely_ugly(4), 4);
+assert.equal(extremely_ugly(6), 6);
+assert.equal(extremely_ugly(11), 15);
+assert.equal(extremely_ugly(999), 51018336);
 
-console.log("Ugly Numbers coding complete? Click 'Check' to earn cool rewards!");
+console.log("Extremely Ugly Numbers coding complete? Click 'Check' to earn cool rewards!");
