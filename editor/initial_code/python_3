@@ -11,4 +11,5 @@ if __name__ == '__main__':
     assert ugly_number(4) == 4
     assert ugly_number(6) == 6
     assert ugly_number(11) == 15
+    assert ugly_number(999) == 51018336
     print("Ugly Numbers coding complete? Click 'Check' to earn cool rewards!")
