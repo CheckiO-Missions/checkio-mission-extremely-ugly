@@ -1,0 +1,59 @@
+<!-- Describe task in general -->
+
+<p>
+Потворні числа - це числа, єдиними простими множниками яких є 2, 3 або 5. 
+Послідовність 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, ... показує перші 11 потворних чисел. За домовленістю, 1 включено.
+Напишіть програму, яка знайде і виведе N-те потворне число. Аналогічно попередній задачі з невеликою відмінністю - обмеження на вхідні дані 1000000, а вихідні дані виводяться у форматі str.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}ugly_numbers.png" alt="ugly_numbers" style="max-height: 83px"/>
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Вхідні дані: </strong>N, int.
+</p>
+
+<p>
+   <strong>Вихідні дані: </strong>N-те потворне число, рядок. 
+</p>
+
+
+<!-- Give some usage examples -->
+<div class="for_info_only">
+    <p>
+        <strong>Приклад:</strong>
+    </p>
+
+{% if is_js %}
+<pre class="brush: javascript">extremely_ugly(4) == '4'
+extremely_ugly(6) == '6'
+extremely_ugly(11) == '15'
+extremely_ugly(999) == '51018336'
+</pre>
+{% else %}
+<pre class="brush: python">extremely_ugly(4) == '4'
+extremely_ugly(6) == '6'
+extremely_ugly(11) == '15'
+extremely_ugly(999) == '51018336'
+</pre>
+{% endif %}
+</div>
+
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<p class="for_info_only">
+    <strong>Як це використовується: </strong>
+    <i>Продемонструвати, що прямий шлях може бути дуже повільним</i>
+</p>
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p>
+    <strong>Умова:</strong>
+    <i>Задане int менше або дорівнює 1000000</i>
+</p>
+
+<p><i>Ідея місії була взята з задачі ICPC</i></p>
