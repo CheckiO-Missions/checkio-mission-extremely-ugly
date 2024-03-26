@@ -1,0 +1,59 @@
+<!-- Describe task in general -->
+
+<p>
+丑数是指质因数只有 2、3 或 5 的数。 
+数列 1、2、3、4、5、6、8、9、10、12、15......显示了前 11 个丑数。按照惯例，1 包括在内。
+编写一个程序，找出并打印第 N 个丑数。与前面的任务相同，但有一点不同--输入值限制为 1000000，输出为 str。
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}ugly_numbers.png" alt="ugly_numbers" style="max-height: 83px"/>
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>输入 </strong>N, int.
+</p>
+
+<p>
+   <strong>输出： N </strong>N'th Ugly Number，str. 
+</p>
+
+
+<!-- Give some usage examples -->
+<div class="for_info_only">
+    <p>
+        <strong>示例：</strong>
+    </p>
+
+{% if is_js %}
+<pre class="brush: javascript">extremely_ugly(4) == '4'
+extremely_ugly(6) == '6'
+extremely_ugly(11) == '15'
+extremely_ugly(999) == '51018336'
+</pre>
+{% else %}
+<pre class="brush: python">extremely_ugly(4) == '4'
+extremely_ugly(6) == '6'
+extremely_ugly(11) == '15'
+extremely_ugly(999) == '51018336'
+</pre>
+{% endif %}
+</div>
+
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<p class="for_info_only">
+    <strong>如何使用： </strong>
+    <i>演示直线运算可能非常缓慢</i>
+</p>
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p>
+    <strong>前提条件：</strong>
+    <i>给定的整数小于或等于 1000000</i>
+</p>
+
+<p><i>任务创意来自 ICPC 挑战赛</i></p>
